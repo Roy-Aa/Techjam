@@ -93,13 +93,41 @@ a{
 }
 
 .newsfigureL{
-    background: red;
     width: 58rem;
     height: 40rem;
+    position: relative;
+}
+
+.newsfigureLIMG{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+}
+
+.newsfigureLText{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 2rem;
+    color: white;
 }
 
 .newsfigureR{
-    background: blue;
     width: 58rem;
     height: 40rem;
+    position: relative;
+}
+
+.newsfigureRIMG{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+}
+
+.newsfigureRText{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 2rem;
+    color: white;
 }
